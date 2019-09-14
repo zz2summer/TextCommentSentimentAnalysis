@@ -1,0 +1,4 @@
+﻿用tensorflow进行中文自然语言处理的情感分析
+https://github.com/zz2summer/chinese_sentiment.git
+
+视频链接：https://www.bilibili.com/video/av30543613

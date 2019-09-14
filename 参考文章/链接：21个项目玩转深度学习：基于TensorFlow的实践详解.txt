@@ -1,0 +1,23 @@
+21个项目玩转深度学习：基于TensorFlow的实践详解
+
+1
+http://yann.lecun.com/exdb/mnist/
+
+https://www.tensorflow.org/get_started/mnist/beginners
+https://www.tensorflow.org/get_started/mnist/pros
+
+http://www.tensorfly.cn/tfdoc/tutorials/mnist_beginners.html
+http://www.tensorfly.cn/tfdoc/tutorials/mnist_pros.html
+
+https://www.tensorflow.org/programmers_guide/tensors
+
+https://www.tensorflow.org/programmers_guide/variables
+http://www.tensorfly.cn/tfdoc/how_tos/variables.html
+
+http://www.tensorflow.org/programmers_guide/graphs
+
+
+
+12
+P229 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/ops/rnn_cell_impl.py
+P242 http://blog.csdn.net/jerr__y/article/details/58598296
