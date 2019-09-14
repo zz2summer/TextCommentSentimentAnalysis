@@ -6,9 +6,9 @@
 
 &emsp;&emsp;基于深度学习的情感分类和智能客服研究与实现。主要是酒店和书店的评论情感分析，可以判定积极和消极，对于消极评论，还可以判断其具体类别，比如物流不好或者服务差等等。
 
-&emsp;&emsp;项目具体使用说明请参考文件：[./sentimentAnalysis/项目使用说明文档]()
+&emsp;&emsp;项目具体使用说明请参考文件：[./sentimentAnalysis/项目使用说明文档](https://github.com/zz2summer/TextCommentSentimentAnalysis/blob/master/sentimentAnalysis/%E9%A1%B9%E7%9B%AE%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.docx)
 
-&emsp;&emsp;项目开发过程记录参考：[./sentimentAnalysis/实验报告]()
+&emsp;&emsp;项目开发过程记录参考：[./sentimentAnalysis/实验报告](https://github.com/zz2summer/TextCommentSentimentAnalysis/blob/master/sentimentAnalysis/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.docx)
 
 ***
 ### 二、项目基础
