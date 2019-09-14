@@ -39,7 +39,6 @@
 ![demo2](.\sentimentAnalysis\实验报告iamges\test2.png)
 
 ***
-***
 ### 四、开发流程
 
 **4.1 实现评论的二分类（判断评论为积极还是消极）算法。**
@@ -87,6 +86,7 @@
 &emsp;&emsp;tensorboard --logdir=F:\Desktop\sentimentAnalysis\static\logs\class2
 
 &emsp;&emsp;算法的模型结构图：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200717999.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 4.1.11 模型的预测功能。
@@ -98,12 +98,15 @@
 &emsp;&emsp;在训练过程中加上Tensorboard相关操作即可记录实时的精确度、loss、learn rate的变化过程。
 
 &emsp;&emsp;训练过程中的train和validation和accuracy的变化如下所示：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200728206.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
+
 &emsp;&emsp;训练过程中的loss的对比变化过程：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200741214.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 &emsp;&emsp;训练过程中的学习率learn rate的变化过程：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200748178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 **4.2 实现对消极评论的九分类即进一步判断消极评论是哪一类的算法。**
@@ -121,26 +124,34 @@
 4.2.5 训练过程的模型及相关的数据的可视化展示。
 
 &emsp;&emsp;每次epoch后的训练精确度和验证精确度的变化：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200821388.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 &emsp;&emsp;算法的模型结构图：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200928941.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 &emsp;&emsp;训练过程中的train和validation和accuracy的变化如下所示：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200924197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 &emsp;&emsp;训练过程中的loss的对比变化过程：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/201909142009198.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
 
 &emsp;&emsp;训练过程中的学习率learn rate的变化过程：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914200913566.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY0NTU1,size_16,color_FFFFFF,t_70)
+
 ***
 ### 五、实验结果
 
 &emsp;&emsp;根据实验的多次模型调整、参数修改与结果优化，二分类和九分类模型的精确度都达到了90%以上，效果相对而言是比较好的。
 
  &emsp;&emsp;二分类算法模型的精确度可以达到91.73%，
+ 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914201104276.png)
 
 &emsp;&emsp;而九分类模型的精确度可以达到91.20%，
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190914201108777.png)
